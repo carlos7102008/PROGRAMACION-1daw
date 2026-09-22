@@ -1,10 +1,10 @@
-\---
+
 
 layout: default
 
 title: Mi Primer Artículo sobre Markdown
 
-\---
+
 
 
 
@@ -18,7 +18,7 @@ title: ...: El título de la página (aparecerá en la pestaña del navegador).
 
 
 
-\# Encabezado Principal
+# Encabezado Principal
 
 
 
@@ -26,13 +26,13 @@ Este es un párrafo de mi artículo. Puedo usar \*\*negrita\*\* o \*cursiva\*.
 
 
 
-\## Subtítulo
+# Subtítulo
 
 
 
-\- Lista de puntos
+- Lista de puntos
 
-\- Otro punto de la lista
+- Otro punto de la lista
 
 
 
@@ -48,7 +48,7 @@ Esta es mi imagen favorita:
 
 
 
-!\[Imagen para fondo de escritorio Programacion](C:\\Users\\15\_1DAW\\programacion\\Imagenes)
+[Imagen para fondo de escritorio Programacion](C:\\Users\\15\_1DAW\\programacion\\Imagenes)
 
 
 
