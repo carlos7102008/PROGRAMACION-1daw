@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="AF2bI1PcvgXvGO4bZr9r">
+    <mxGraphModel dx="691" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Inicio&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="300" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fin&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="300" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-3" edge="1" parent="1" source="yQD1mAPZjM4NkCtymCbv-1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="450" as="sourcePoint" />
+            <mxPoint x="360" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Solicitamos el radio del circulo" vertex="1">
+          <mxGeometry height="60" width="330" x="195" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-5" edge="1" parent="1" source="yQD1mAPZjM4NkCtymCbv-4" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="220" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Multiplicamos el numero que nos de por si mismo" vertex="1">
+          <mxGeometry height="60" width="330" x="195" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-7" edge="1" parent="1" source="yQD1mAPZjM4NkCtymCbv-6" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="455" as="sourcePoint" />
+            <mxPoint x="360" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Multiplicamos ese resultado por el número PI" vertex="1">
+          <mxGeometry height="60" width="330" x="195" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="585" as="sourcePoint" />
+            <mxPoint x="360" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="El Resultado es el area&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="330" x="195" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="715" as="sourcePoint" />
+            <mxPoint x="360" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Imprimimos por pantalla el area&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="330" x="195" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="yQD1mAPZjM4NkCtymCbv-14" edge="1" parent="1" source="yQD1mAPZjM4NkCtymCbv-12" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yQD1mAPZjM4NkCtymCbv-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="850" as="sourcePoint" />
+            <mxPoint x="510" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
