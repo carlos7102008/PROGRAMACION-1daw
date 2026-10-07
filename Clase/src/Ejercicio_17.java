@@ -27,7 +27,7 @@ public class Ejercicio_17 {
         int minutos = x % 3600 / 60;
         int segundos = x % 60;
         int hora = x / 3600;
-        System.out.println("Equivale a " + hora +  "horas" + minutos + "minutos" + segundos + "segundos");
+        System.out.println("Equivale a " + hora +  "  horas " + minutos + " minutos " + segundos + " segundos ");
 
 
     }
