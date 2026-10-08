@@ -13,11 +13,17 @@ public class Ejercicio_21 {
        int radio = 34;
        double longitud = 2 * PI * radio;
        double area = PI * (radio * radio);
+<<<<<<< HEAD
        System.out.println("El radio del circulo es " + radio);
        System.out.println("La longitud del circulo es " + longitud);
        System.out.println("El area del circulo es " + area);
       
 
+=======
+       System.out.println("la longitud del circulo es " + longitud + " CM");
+       System.out.println("El area del circulo es " + area + " CM");
+      
+>>>>>>> d7218086bd5d029f762501dda06cf8c9428f59a5
        
 }
 }

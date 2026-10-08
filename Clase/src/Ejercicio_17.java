@@ -18,15 +18,17 @@ public class Ejercicio_17 {
        double precio = armadura - (armadura * Descuento) ;
        System.out.println("El precio de la armdura es " + precio);
        
-       
-       System.out.println("Parte 2");
+       /* Parte dos del programa*/
+        System.out.println("Parte 2");
         System.out.println("Introduce un total de segundos \n");
+       /* una vez obtenido los segundos que quiere pasar lo pasaremos a horas o a minutos*/ 
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        int Minutos = x / 60;
-        int Hora = Minutos / 60;
-        System.out.println("Equivale en minutos a " + Minutos);
-        System.out.println("Equivale en hora a " + Hora);
+        int minutos = x % 3600 / 60;
+        int segundos = x % 60;
+        int hora = x / 3600;
+        System.out.println("Equivale a " + hora +  "  horas " + minutos + " minutos " + segundos + " segundos ");
+
 
     }
 }
