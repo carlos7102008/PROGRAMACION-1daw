@@ -34,6 +34,8 @@ public class Ejercicio_25 {
         System.out.println("Tengo una ganancia de " + ganancia_man + "€ respecto a las manzanas");
         System.out.println("Tengo una ganancia de " + ganancia_per + "€ respecto a las peras");
         System.out.println("Tengo una ganancia total de " + ganancia_total + "€ ");
+        
+        
 
     }
 }
