@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package javaapplication5;
-
+import java.util.Scanner;
 /**
  *
  * @author 15_1DAW
@@ -14,7 +14,12 @@ public class JavaApplication5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        
+        final string nombre = Carlos ; 
+        if (nombre = Carlos){
+            System.out.println("Bienvenidos");
+        }
     }
     
 }
