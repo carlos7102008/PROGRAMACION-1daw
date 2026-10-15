@@ -11,19 +11,26 @@ import java.util.Scanner;
  */
 public class if_else {
     public static void main(String[] args) {
-        
-    
-      String usuario = "Fran";
-        final String usuario_correcto = "Fran";
-        // Si el usuario introducido coincide con USUARIO_CORRECTO
-        // le damos la bienvenida, en otro caso, continua el programa.
-        
-        if (usuario == usuario_correcto){
-            System.out.println("Bienvenido " + usuario + "!");
+      Scanner sc = new Scanner(System.in);
+      
+      // compararremos dos numeros para ver cual es mayor.
+      
+      System.out.println("Dime un numero");
+      int numero1 = sc.nextInt();
+      System.out.println("Dime otro numero");
+      int numero2 = sc.nextInt();     
+   
+        // haremos la comparacion.
+        // En el primer y segundo caso haremos que comparen los dos numeros indicando cual es mayor
+        if (numero1 > numero2){
+            System.out.println("El numero mayor es " + numero1 + "!");
             
-        }else {
-            System.out.println("Usuario incorrecto");
-        }
+        }else if(numero1 < numero2) {
+            System.out.println("El numero mayor es " + numero2 + "!");
+            // En el tercer caso haremos que si no es ni mayor ni menor nos muestre que los numeros son iguales
+        }else{
+              System.out.println("Los dos numeros son iguales");  
+                }
         System.out.println("FIN ");
     }
 }
