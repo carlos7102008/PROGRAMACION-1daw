@@ -21,7 +21,8 @@ public class Ejercicio_7 {
         Scanner sc = new Scanner (System.in);
         
         System.out.println("Ingresa un año \n");
-        //Guardamos la respuesta en una variable llamada a
+        //Guardamos la respuesta en una variable llamada a+
+        
         int a = sc.nextInt();
         //hacemos el calculo si el dato obtenido es bisiesto y lo hacemos a traves de un if para hacer los 
         //calculos para saber si es bisiesto y si ese calculo es incorrecto hace el apartado else.

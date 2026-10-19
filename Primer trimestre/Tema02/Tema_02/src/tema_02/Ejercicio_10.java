@@ -22,7 +22,7 @@ public class Ejercicio_10 {
         double c = sc.nextDouble();
         
         // 1. Comprobar si pueden formar un triángulo
-        if ((a + b > c) || (a + c > b) || (b + c > a)) {
+        if ((a + b > c) && (a + c > b) && (b + c > a)) {
             
             // 2. Si es un triángulo, determinar el tipo
             if (a == b && b == c) {
