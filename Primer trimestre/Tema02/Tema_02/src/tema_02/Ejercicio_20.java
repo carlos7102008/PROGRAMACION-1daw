@@ -13,15 +13,15 @@ public class Ejercicio_20 {
         Scanner sc = new Scanner(System.in);
         
         int total = 0;
-        System.out.println("Dime el primer numero que quieras sumar: \n");
-        int numero = sc.nextInt();
-        total = total + numero;
-        while(numero != 0){
-            System.out.println("Dime otro numero: \n");
+        int numero;
+      
+        do{
+            System.out.println("Dime un numero: \n");
              numero = sc.nextInt();
              total = total + numero;
             
-        }
+        }while(numero != 0);
+        
         System.out.println("EL total es: " + total);
     }
 }
