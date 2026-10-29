@@ -17,19 +17,16 @@ public class Ejercicio_01 {
     public static void mostrarDatosArea(int base, int altura) {
         System.out.println("Base: " + base);
         System.out.println("Altura: " + altura);
-        System.out.println("El área es: " + calcularAreaRectangulos(base, altura) + " m²");
+        System.out.println("El area es: " + calcularAreaRectangulos(base, altura) + " m²");
     }
 
     public static void main(String[] args) {
         // Cálculo 1: Salón
-        calcularAreaRectangulos(4, 5);
         mostrarDatosArea(4, 5);
         // Cálculo 2: Cocina
-        calcularAreaRectangulos(10, 5);
         mostrarDatosArea(10, 5);
 
         // Cálculo 3: Jardín
-        calcularAreaRectangulos(9, 8);
         mostrarDatosArea(9, 8);
     }
 }
