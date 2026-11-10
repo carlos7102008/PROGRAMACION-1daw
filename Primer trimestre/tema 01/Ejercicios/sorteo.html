@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteo - Coffee Break</title>
+</head>
+<body>
+    <div id="contenedor-formulario">
+        <h2>¡¡Sorteamos una Cafetera Nespresso + 1 año de cápsulas!!</h2>
+        <p>Rellena los siguientes datos y ... ¡mucha suerte!</p>
+        <p><strong>Fecha del sorteo: 28/02/2022</strong></p>
+
+        <!-- Formulario configurado con método POST a la dirección indicada -->
+        <form action="mailto:info@estamosenexamen.es" method="post" enctype="text/plain">
+            
+            <!-- Campos de texto obligatorios -->
+            <fieldset>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+                
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </fieldset>
+
+            <!-- Opciones de radio (solo se puede elegir una) -->
+            <fieldset>
+                <legend>¿Cuántos cafés tomas al día?</legend>
+                <input type="radio" id="cafe_ninguno" name="cantidad_cafe" value="Ninguno">
+                <label for="cafe_ninguno">Ninguno</label>
+                
+                <input type="radio" id="cafe_1_2" name="cantidad_cafe" value="1 o 2">
+                <label for="cafe_1_2">1 o 2</label>
+                
+                <input type="radio" id="cafe_2_5" name="cantidad_cafe" value="Entre 2 y 5">
+                <label for="cafe_2_5">Entre 2 y 5</label>
+                
+                <input type="radio" id="cafe_mas_5" name="cantidad_cafe" value="Más de 5">
+                <label for="cafe_mas_5">Más de 5</label>
+            </fieldset>
+
+            <!-- Opciones de checkbox (selección múltiple) -->
+            <fieldset>
+                <legend>¿Qué tipo de café prefieres?</legend>
+                <input type="checkbox" id="tipo_solo" name="tipo_cafe" value="Solo">
+                <label for="tipo_solo">Solo</label>
+                
+                <input type="checkbox" id="tipo_cortado" name="tipo_cafe" value="Cortado">
+                <label for="tipo_cortado">Cortado</label>
+                
+                <input type="checkbox" id="tipo_con_leche" name="tipo_cafe" value="Con leche">
+                <label for="tipo_con_leche">Con leche</label>
+                
+                <input type="checkbox" id="tipo_americano" name="tipo_cafe" value="Americano">
+                <label for="tipo_americano">Americano</label>
+            </fieldset>
+
+            <!-- Área de texto -->
+            <fieldset>
+                <label for="comentarios">Indícanos cuál es la marca de tu cafetera actual y cuánto hace que la tienes:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+            </fieldset>
+
+            <!-- Botones de acción -->
+            <div class="botones">
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar formulario</button>
+            </div>
+            
+        </form>
+
+        <footer>
+            <p>Formulario para sorteo realizado por (Tu Nombre)</p>
+            <p><a href="index.html">Volver a la página principal</a></p>
+        </footer>
+    </div>
+</body>
+</html>
