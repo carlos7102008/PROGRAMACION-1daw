@@ -24,13 +24,16 @@ public class Ejercicio_5 {
             numeros[i] = sc.nextInt();
         }
 
-        System.out.print("Introduce la posicion que deseas consultar (de 0 a " + (tamano - 1) + "): ");
+        System.out.print("Introduce la posicion que deseas consultar (de 0 a " +
+                (tamano - 1) + "): ");
         int posicion = sc.nextInt();
 
         if (posicion >= 0 && posicion < numeros.length) {
-            System.out.println("El valor almacenado en la posicion " + posicion + " es: " + numeros[posicion]);
+            System.out.println("El valor almacenado en la posicion " + posicion 
+                    + " es: " + numeros[posicion]);
         } else {
-            System.out.println("Error: La posicion introducida no es valida. Debe estar entre 0 y " + (tamano - 1) + ".");
+            System.out.println("Error: La posicion introducida no es valida."
+                    + " Debe estar entre 0 y " + (tamano - 1) + ".");
         }
     }
 }

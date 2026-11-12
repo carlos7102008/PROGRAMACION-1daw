@@ -1,8 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+package tema4;
+
 import java.util.Scanner;
+import static tema4.Ejercicio_1.imprimeArray;
 
 /**
  *
@@ -20,19 +19,18 @@ public class Ejercicio_3 {
         }
 
         System.out.println(" --  Listado de precios  -- ");
-        for (int i = 0; i < precios.length; i++) {
-            System.out.println("Producto " + (i + 1) + ": " + precios[i]);
-        }
-
+        imprimeArray(precios);
+        
+        System.out.println("\n");
         System.out.println(" -- Modificar precio -- ");
         int posicion = 0;
         boolean posicionValida = false;
 
         while (!posicionValida) {
-            System.out.println("que podicion quieres modificar (1 - 5)");
+            System.out.println("que podicion quieres modificar (1 - " + precios.length + ")");
             posicion = sc.nextInt();
 
-            if (posicion >= 1 && posicion <= 5) {
+            if (posicion >= 1 && posicion <= precios.length) {
                 posicionValida = true;
             } else {
                 System.out.println("No has introducido una opcion valida.");
@@ -45,8 +43,6 @@ public class Ejercicio_3 {
         precios[posicion - 1] = nuevoPrecio;
 
         System.out.println(" -- listado de precios nuevo -- ");
-        for (int i = 0; i < precios.length; i++) {
-            System.out.println("Producto " + (i + 1) + ": " + precios[i]);
-        }
+        imprimeArray(precios);
     }
-    }
+}

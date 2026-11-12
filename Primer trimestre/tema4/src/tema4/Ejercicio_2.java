@@ -5,6 +5,7 @@
 package tema4;
 
 import java.util.Scanner;
+import static tema4.Ejercicio_1.imprimeArray;
 
 /**
  *
@@ -23,9 +24,10 @@ public class Ejercicio_2 {
             temperaturas[i] = sc.nextDouble();
         }
         System.out.println(" \n temperaturas introducidas: ");
-        for (int i = 0; i < temperaturas.length; i++) {
-            System.out.println("- " + temperaturas[i]);
-        }
+        
+        imprimeArray(temperaturas);
+
+        
         System.out.println("Total de temperaturas: " + temperaturas.length);
     }
 }
