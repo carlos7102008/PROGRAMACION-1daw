@@ -32,7 +32,7 @@ public class Ejercicio_8 {
         // 3. Mostrar los precios actualizados
         System.out.println("2 y 3. Precios actualizados (+5%):");
         for (int i = 0; i < precios.length; i++) {
-            System.out.printf("%.2f €   ", precios[i]);
+            System.out.print(precios[i] + " €   ");
         }
         System.out.println("\n");
 
@@ -57,7 +57,7 @@ public class Ejercicio_8 {
         double precioMedio = sumaPrecios / precios.length;
 
         // Mostrar los resultados finales
-        System.out.printf("4. Precio medio de los productos: %.2f €\n", precioMedio);
+        System.out.println("4. Precio medio de los productos: " + precioMedio + " €");
         System.out.println("5. Cantidad de productos que cuestan más de 15 euros: " + productosMasDe15);
     }
-}  
+}

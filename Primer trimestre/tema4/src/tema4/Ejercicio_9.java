@@ -59,6 +59,6 @@ public class Ejercicio_9 {
         // Se hace un "cast" a double para evitar que la división entera pierda los decimales
         double porcentajeAprobados = ((double) totalSuperan / notas.length) * 100;
         
-        System.out.printf("\nPorcentaje de alumnos que superan la materia: %.2f%%\n", porcentajeAprobados);
+        System.out.println("\nPorcentaje de alumnos que superan la materia: " + porcentajeAprobados + "%");
     }
 }

@@ -41,12 +41,11 @@ public class Ejercicio_12 {
             // 4. Mostrar el mensaje indicando si se ha encontrado
             System.out.println("\n--- Resultado de la búsqueda ---");
             if (encontrado) {
-                System.out.println("✅ El número " + numeroABuscar + " SÍ está presente en el array.");
+                System.out.println(" El número " + numeroABuscar + " SÍ está presente en el array.");
             } else {
-                System.out.println("❌ El número " + numeroABuscar + " NO está presente en el array.");
+                System.out.println(" El número " + numeroABuscar + " NO está presente en el array.");
             }
 
-            scanner.close();
         }
     }
-}
+
