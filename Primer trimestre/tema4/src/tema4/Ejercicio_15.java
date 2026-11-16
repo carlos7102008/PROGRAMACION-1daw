@@ -93,7 +93,6 @@ public class Ejercicio_15 {
             System.out.println("Aparece por primera vez en la posición " + primeraPos + " y por última vez en la posición " + ultimaPos + ".");
         }
         
-        scanner.close();
     }
 }
 

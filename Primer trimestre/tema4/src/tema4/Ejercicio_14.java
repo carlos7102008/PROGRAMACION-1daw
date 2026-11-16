@@ -57,7 +57,6 @@ public class Ejercicio_14 {
             System.out.println("El número " + numeroActual + " aparece " + contadorAmpliacion + " veces.");
         }
         
-        scanner.close();
     }
 }  
 

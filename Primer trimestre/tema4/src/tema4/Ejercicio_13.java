@@ -54,7 +54,6 @@ public class Ejercicio_13 {
             System.out.println("El número " + numeroABuscar + " no existe en el array.");
         }
         
-        scanner.close();
     }
 } 
 
