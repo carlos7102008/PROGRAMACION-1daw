@@ -27,13 +27,13 @@ public class Ejercicio_12 {
             System.out.print("Introduce el número que quieres buscar: ");
             int numeroABuscar = scanner.nextInt();
 
-            // Variable "bandera" para saber si hemos encontrado el número
+            // Variable para saber si hemos encontrado el número
             boolean encontrado = false;
 
             // 3. Recorrer el array
             for (int i = 0; i < numeros.length; i++) {
                 if (numeros[i] == numeroABuscar) {
-                    encontrado = true; // ¡Lo encontramos!
+                    encontrado = true;
                     break; // Rompemos el bucle, ya no hace falta seguir buscando
                 }
             }
@@ -48,4 +48,3 @@ public class Ejercicio_12 {
 
         }
     }
-
