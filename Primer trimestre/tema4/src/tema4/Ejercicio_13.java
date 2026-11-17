@@ -22,7 +22,7 @@ public class Ejercicio_13 {
         System.out.print("Número buscado: ");
         int numeroABuscar = scanner.nextInt();
         
-        // Variable boleeana  para saber si existe
+        // Variable boleeana 00 para saber si existe
         boolean encontrado = false;
         
         // Variable de texto (String) para ir guardando todas las posiciones donde aparezca
