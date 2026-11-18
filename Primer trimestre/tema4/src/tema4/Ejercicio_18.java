@@ -31,6 +31,7 @@ public class Ejercicio_18 {
 // usado un metodo de otro ejercicio por no usar java.util.Arrays.toString
 
         System.out.println(" Poner 0 en cada elemto: ");
+        rellenarCeros(numeros);
         imprimirArray(numeros);
 // usado un metodo de otro ejercicio por no usar java.util.Arrays.toString
 
