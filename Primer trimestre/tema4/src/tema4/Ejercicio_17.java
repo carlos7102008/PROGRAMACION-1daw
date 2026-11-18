@@ -29,16 +29,16 @@ public class Ejercicio_17 {
 
         int valorNoExistente = 99;
         System.out.println("La posición del número " + valorNoExistente + " es: " + buscarPosicion(numeros, valorNoExistente));
-    } // Solo una llave aquí para cerrar el main
+    }
 
     public static void mostrar(int[] numeros) {
         for (int i = 0; i < numeros.length; i++) {
-            System.out.print(numeros[i]); // Cambiado a print
+            System.out.print(numeros[i]); 
             if (i < numeros.length - 1) {
-                System.out.print(", "); // Cambiado a print
+                System.out.print(", "); 
             }
         }
-        System.out.println(); // Salto de línea al final
+        System.out.println();
     }
 
     public static double suma(int[] numeros) {
