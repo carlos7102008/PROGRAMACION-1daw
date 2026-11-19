@@ -10,7 +10,6 @@ public class Ejercicio_27 {
         System.out.print("Introduce una palabra: ");
         String palabra = sc.nextLine();
 
-        // Normalizamos sobrescribiendo las mismas variables 
         frase = frase.trim().toLowerCase();
         palabra = palabra.trim().toLowerCase();
 
