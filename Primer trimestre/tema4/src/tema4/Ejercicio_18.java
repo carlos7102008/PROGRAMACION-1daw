@@ -13,17 +13,19 @@ public class Ejercicio_18 {
     public static void main(String[] args) {
         int[] numeros = {12, 5, 8, 20, 3, 14, 7};
         int[] arrayCopiado = copiar(numeros);
-        
+
         arrayCopiado[0] = 999;
-        
+
         System.out.print("Array original intacto: ");
         imprimirArray(numeros);
-        
+
         System.out.print("Array copia modificado: ");
         imprimirArray(arrayCopiado);
-        
-        System.out.println(" la suma de todos los elementos: " + implementar(numeros));
 
+        imcrementar(numeros);
+        System.out.println(" la suma de los elementos + 1: ");
+        imprimirArray(numeros);
+        
         int factor = 4;
         multiplicar(numeros, factor);
         System.out.println(" Multiplicar cada elemto por " + factor + ": ");
@@ -37,12 +39,10 @@ public class Ejercicio_18 {
 
     }
 
-    public static int implementar(int[] numeros) {
-        int suma = 0;
-        for (int num : numeros) {
-            suma += num;
+    public static void imcrementar(int[] numeros) {
+        for (int i = 0; i < numeros.length; i++) {
+            numeros[i]++;
         }
-        return suma;
     }
 
     public static void multiplicar(int[] numeros, int factor) {
@@ -67,13 +67,11 @@ public class Ejercicio_18 {
     }
 
     public static void imprimirArray(int[] numeros) {
-        System.out.print("[");
         for (int i = 0; i < numeros.length; i++) {
             System.out.print(numeros[i]);
             if (i < numeros.length - 1) {
                 System.out.print(", ");
             }
         }
-        System.out.println("]");
     }
 }
