@@ -18,12 +18,11 @@ public class Ejercicio_22 {
         String palabra = sc.next();
 
         int longitud = palabra.length();
-        String primerCaracter = palabra.substring(0, 1);
         String ultimoCaracter = palabra.substring(longitud - 1);
 
         System.out.println("\nPalabra introducida: " + palabra);
         System.out.println("Longitud: " + longitud);
-        System.out.println("Primer carácter: " + primerCaracter);
+        System.out.println("Primer carácter: " + palabra.charAt(0));
         System.out.println("Último carácter: " + ultimoCaracter);
 
         if (longitud > 10) {
