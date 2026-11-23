@@ -10,8 +10,8 @@ public class Ejercicio_27 {
         System.out.print("Introduce una palabra: ");
         String palabra = sc.nextLine();
 
-        frase = frase.trim().toLowerCase();
-        palabra = palabra.trim().toLowerCase();
+        frase = frase.toLowerCase();
+        palabra = palabra.toLowerCase();
 
         // 1. Si la frase contiene la palabra (
         System.out.println("¿Contiene la palabra?: " + frase.contains(palabra));

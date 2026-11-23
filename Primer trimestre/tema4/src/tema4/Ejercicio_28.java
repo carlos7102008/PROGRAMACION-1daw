@@ -10,8 +10,7 @@ public class Ejercicio_28 {
         System.out.print("Introduce la posición de inicio: ");
         int inicio = sc.nextInt();
 
-        System.out.print("Introduce la posición de fin: ");
-        int fin = sc.nextInt();
+        int fin = frase.length();
 
         if (inicio >= 0 && fin <= frase.length() && inicio <= fin) {
             String subcadena = frase.substring(inicio, fin);
